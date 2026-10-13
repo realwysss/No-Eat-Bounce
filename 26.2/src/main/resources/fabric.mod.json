@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "noeb",
+	"version": "${version}",
+	"name": "No Eat Bounce",
+	"description": "removes the up and down bounce of the item in your hand while you eat or drink. settings through mod menu and cloth config.",
+	"authors": ["realwysss"],
+	"contact": {"sources": "https://github.com/realwysss/No-Eat-Bounce"},
+	"license": "MIT",
+	"icon": "assets/noeb/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.noeb.NoebClient"],
+		"modmenu": ["dev.noeb.ModmenuIntgr"]
+	},
+	"mixins": [
+		{
+			"config": "noeb.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=26.1 <26.3",
+		"java": ">=25"
+	}
+}
