@@ -1,6 +1,6 @@
 # No Eat Bounce
 
-removes the up and down bounce of the item in your hand while you eat or drink. the item still moves to your mouth, it just stops bobbing.
+removes the up and down bounce of the item in your hand while you eat food or use potions. the item still moves to your mouth, it just stops bobbing.
 
 client side fabric mod. settings through mod menu with cloth config:
 
