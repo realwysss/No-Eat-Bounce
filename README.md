@@ -1,3 +1,5 @@
+<p align="center"><img src="1.21.11/src/main/resources/assets/noeb/icon.png" width="128"></p>
+
 # No Eat Bounce
 
 removes the up and down bounce of the item in your hand while you eat food or use potions. the item still moves to your mouth, it just stops bobbing.
