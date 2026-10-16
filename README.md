@@ -4,7 +4,7 @@
 
 removes the up and down bounce of the item in your hand while you eat food or use potions. the item still moves to your mouth, it just stops bobbing.
 
-client side fabric mod. settings through mod menu with cloth config:
+client side fabric mod. settings with the menu (key **X** or mod menu, 1.21 to 1.21.11 jar needs [Wysss Library](https://github.com/realwysss/Wysss-Library)):
 
 - **mod on**: turn it off to get the normal vanilla animation back
 - **bounce height**: slider from 0% to 100%. 0% (default) removes the bounce, 100% is vanilla, anything in between is a smaller bounce
@@ -13,7 +13,7 @@ client side fabric mod. settings through mod menu with cloth config:
 
 | jar | minecraft |
 |---|---|
-| `no-eat-bounce-mc1.21-1.21.11-1.0.0.jar` | 1.21 to 1.21.11 |
+| `no-eat-bounce-mc1.21-1.21.11-1.1.0.jar` | 1.21 to 1.21.11 |
 | `no-eat-bounce-mc26.1-26.2-1.0.0.jar` | 26.1 to 26.2 |
 | `no-eat-bounce-mc26.3-1.0.0.jar` | 26.3 |
 
